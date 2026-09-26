@@ -3,7 +3,7 @@ pipeline{
 stages{
           stage("Pull Code"){
            steps{
-                echo "Pulling Code From Github ...."
+                echo "Pulling Code From Github Repo ...."
 }
 }
 stage("Build"){
